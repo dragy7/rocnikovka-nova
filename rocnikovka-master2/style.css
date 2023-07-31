@@ -1,0 +1,1030 @@
+body {
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+        background-repeat: no-repeat;
+        background-size: cover;
+background: #06AAEF;
+background: linear-gradient(45deg, #06AAEF, #FFA500);
+}
+.pravidlaText {
+  text-align: center;
+  font: italic small-caps bold 16px/2 cursive;
+  color: black;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  
+}
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #666;
+}
+
+.start {
+  text-align: center;
+  font: italic small-caps bold 16px/2 cursive;
+}
+
+.pravidla {
+  text-align: center;
+  font: italic small-caps bold 16px/2 cursive;
+  font-size: medium;
+
+}
+
+.zpet{
+  font: italic small-caps bold 16px/2 cursive;
+}
+
+
+
+
+.hexagon {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 700px;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon:hover {
+  background-color: grey;
+}
+
+.hexagon2 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 650px;
+  top: 1px;
+}
+
+.hexagon2:before,
+.hexagon2:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon2:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey
+}
+
+.hexagon2:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon2 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon2 button:hover {
+  background-color: grey;
+}
+
+.hexagon3 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 751px;
+  top: -85px;
+}
+
+.hexagon3:before,
+.hexagon3:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon3:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey
+}
+
+.hexagon3:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon3 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon3 button:hover {
+  background-color: grey;
+}
+
+.hexagon4 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 600px;
+  top: -84px;
+}
+
+.hexagon4:before,
+.hexagon4:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon4:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon4:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon4 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon4 button:hover {
+  background-color: grey;
+}
+
+.hexagon5 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 701px;
+  top: -170px;
+}
+
+.hexagon5:before,
+.hexagon5:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon5:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon5:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon5 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon5 button:hover {
+  background-color: grey;
+}
+
+.hexagon6 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 802px;
+  top: -256px;
+}
+
+.hexagon6:before,
+.hexagon6:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon6:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon6:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon6 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon6 button:hover {
+  background-color: grey;
+}
+
+.hexagon7 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 550px;
+  top: -256px;
+}
+
+.hexagon7:before,
+.hexagon7:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon7:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon7:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon7 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon7 button:hover {
+  background-color: grey;
+}
+
+.hexagon8 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 651px;
+  top: -343px;
+}
+
+.hexagon8:before,
+.hexagon8:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon8:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon8:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon8 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon8 button:hover {
+  background-color:grey;
+}
+
+.hexagon9 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 752px;
+  top: -429px;
+}
+
+.hexagon9:before,
+.hexagon9:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon9:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon9:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon9 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon9 button:hover {
+  background-color: grey;
+}
+
+.hexagon10 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 853px;
+  top: -515px;
+}
+
+.hexagon10:before,
+.hexagon10:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon10:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon10:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon10 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon10 button:hover {
+  background-color: grey;
+}
+
+.hexagon11 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 500px;
+  top: -515px;
+}
+
+.hexagon11:before,
+.hexagon11:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon11:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon11:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon11 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon11 button:hover {
+  background-color: grey;
+}
+
+.hexagon12 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 601px;
+  top: -601px;
+}
+
+.hexagon12:before,
+.hexagon12:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon12:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon12:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon12 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon12 button:hover {
+  background-color: grey;
+}
+
+.hexagon13 {
+  width: 100px;
+  height: 57.7px;
+  background-color:grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 702px;
+  top: -688px;
+}
+
+.hexagon13:before,
+.hexagon13:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon13:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon13:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon13 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon13 button:hover {
+  background-color: grey;
+}
+
+.hexagon14 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 803px;
+  top: -774px;
+}
+
+.hexagon14:before,
+.hexagon14:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon14:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon14:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon14 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon14 button:hover {
+  background-color: grey;
+}
+
+.hexagon15 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 904px;
+  top: -861px;
+}
+
+.hexagon15:before,
+.hexagon15:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon15:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon15:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon15 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon15 button:hover {
+  background-color: grey;
+}
+
+.hexagon16 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 450px;
+  top: -861px;
+}
+
+.hexagon16:before,
+.hexagon16:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon16:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon16:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon16 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon16 button:hover {
+  background-color: grey;
+}
+
+.hexagon17 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 551px;
+  top: -946px;
+}
+
+.hexagon17:before,
+.hexagon17:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon17:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon17:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon17 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon17 button:hover {
+  background-color: grey;
+}
+
+.hexagon18 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 652px;
+  top: -1033px;
+}
+
+.hexagon18:before,
+.hexagon18:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon18:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon18:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon18 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon18 button:hover {
+  background-color: grey;
+}
+
+.hexagon19 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 753px;
+  top: -1120px;
+}
+
+.hexagon19:before,
+.hexagon19:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon19:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon19:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon19 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon19 button:hover {
+  background-color:grey;
+}
+
+.hexagon20 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 854px;
+  top: -1205px;
+}
+
+.hexagon20:before,
+.hexagon20:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon20:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon20:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon20 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon20 button:hover {
+  background-color: grey;
+}
+
+.hexagon21 {
+  width: 100px;
+  height: 57.7px;
+  background-color: grey;
+  position: relative;
+  margin: 28.85px 0;
+  left: 955px;
+  top: -1291px;
+}
+
+.hexagon21:before,
+.hexagon21:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon21:before {
+  bottom: 100%;
+  border-bottom: 28.85px solid grey;
+}
+
+.hexagon21:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.85px solid grey;
+}
+
+.hexagon21 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexagon21 button:hover {
+  background-color: grey;
+}
+
+
+.answer {
+  position: absolute;
+  left: 40%;
+  top: 70%;
+}

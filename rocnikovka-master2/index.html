@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Az kvíz</title>
+</head>
+<body>
+  <div>
+    <div id="startMenu">
+      <h1>Vitej v Az kvízu</h1>
+      <ul>
+        <div class="start" id="start">
+          <a href="#">Spustit kvíz</a>
+        </div>
+        <div class="pravidla" id="pravidla">
+          <a href="#">pravidla
+          </a>
+        </div>
+      </ul>
+    </div>
+  </div>
+  <div class="pravidlaText" id="pravidlaText" style="display: none">
+    <p>soutěžící si vybírá v každem kole pole.</p>
+    <p>Vítězem se stanes když všechny pole budou zeleny obarveny.</p>
+    <p>odpovědi prosím pište s diakritikou a bez velkých písmen </p>
+    <p>pokud budeš hledat odpovědi na internetu tak ti to karma oplatí</p>
+    </div>
+  <div class="zpet" id="zpet" style="display: none">
+    <a href="#"> Zpět</a>
+  </div>
+  <div id="gameArea" class="gameArea" style="display: none">
+  <div>
+    <div class="hexagon hex"  data-used="false" data-id="1">
+    </div>
+    <div class="hexagon2 hex" data-used="false" data-id="2">
+    </div>
+    <div class="hexagon3 hex" data-used="false" data-id="3">
+      
+    </div>
+    <div class="hexagon4 hex" data-used="false" data-id="4">
+      
+    </div>
+    <div class="hexagon5 hex" data-used="false" data-id="5">
+      
+    </div>
+    <div class="hexagon6 hex" data-used="false" data-id="6">
+      
+    </div>
+    <div class="hexagon7 hex" data-used="false" data-id="7">
+      
+    </div>
+    <div class="hexagon8 hex" data-used="false" data-id="8">
+      
+    </div>
+    <div class="hexagon9 hex" data-used="false" data-id="9">
+      
+    </div>
+    <div class="hexagon10 hex" data-used="false" data-id="10">
+    
+    </div>
+    <div class="hexagon11 hex" data-used="false" data-id="11">
+      
+    </div>
+    <div class="hexagon12 hex" data-used="false" data-id="12">
+      
+    </div>
+    <div class="hexagon13 hex" data-used="false" data-id="13">
+      
+    </div>
+  </div>
+  <div class="hexagon14 hex" data-used="false" data-id="14" >
+  </div>
+  </div>
+  <div class="hexagon15 hex" data-used="false" data-id="15">
+    
+  </div>
+  </div>
+  <div class="hexagon16 hex" data-used="false" data-id="16">
+    
+  </div>
+  </div>
+  <div class="hexagon17 hex" data-used="false" data-id="17">
+    
+  </div>
+  </div>
+  <div class="hexagon18 hex" data-used="false" data-id="18">
+    
+  </div>
+  </div>
+  <div class="hexagon19 hex" data-used="false" data-id="19">
+    
+  </div>
+  </div>
+  <div class="hexagon20 hex" data-used="false" data-id="20">
+    
+  </div>
+  </div>
+  </div>
+  <div class="hexagon21 hex" data-used="false" data-id="21">
+    
+  </div>
+  </div>
+  
+
+  <div class="answer" id="answerWindow">
+    <h1 class="question" id="question">?</h1>
+    <p><input type="text" id="answer" placeholder="Vaše odpověď"></p>
+    <button type="submit" id="submit" hidden>Odeslat</button>
+  </div>
+</div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
